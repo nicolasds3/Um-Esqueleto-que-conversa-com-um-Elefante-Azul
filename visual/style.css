@@ -4,10 +4,25 @@
 }
 
 body {
-  display: flex;
+  
 }
 
-#div-principal {
-    justify-content: center;
-    align-items: center;
+#sec-principal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+label, input {
+  display: block;
+  margin-top: 5vh;
+}
+
+button {
+  height: 5vh;
+  width: 5vw;
+  margin-top: 5vh;
+  justify-content: center;
 }

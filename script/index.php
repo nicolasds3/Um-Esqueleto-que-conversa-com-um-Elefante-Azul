@@ -8,18 +8,18 @@
     <link rel="website icon" type="png" href="../imagens/elefantedophp.png">
 </head>
 <body>
-
-    <div id="div-principal">
-        <form method="POST" action="">
-            <label for="numero_primo">Calculo de base e altura do triângulo.</label>
-            <label for="base">Base do Triângulo: </label>
-            <Input type="number" id="base" name="base" required>
-            <label for="altura">Altura do Triângulo: </label>
-            <input type="number" id="altura" name="altura" required>
-            <button type="submit" name="calcular_altura" id="calcular_altura">Calcular</button>
-        </form>
-    </div>
-
+    <section id="sec-principal">
+        <div id="div-principal">
+            <form method="POST" action="">
+                <label for="numero_primo">Calculo de base e altura do triângulo.</label>
+                <label for="base">Base do Triângulo: </label>
+                <Input type="number" id="base" name="base" required>
+                <label for="altura">Altura do Triângulo: </label>
+                <input type="number" id="altura" name="altura" required>
+                <button type="submit" name="calcular_altura" id="calcular_altura">Calcular</button>
+            </form>
+        </div>
+    </section>
     <?php
     
         if($_SERVER['REQUEST_METHOD'] == 'POST') {
